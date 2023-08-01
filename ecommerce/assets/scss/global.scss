@@ -1,0 +1,32 @@
+body {
+    @include k-border;
+  }
+  
+
+
+header {
+    display : flex;
+    justify-content : space-between;
+    align-items : center;
+    padding : 1rem;
+    background-color : grey;
+    color : white;
+    font-size : 1.5rem;
+    ul {
+      display : flex;
+      justify-content : space-between;
+      align-items : center;
+      list-style : none;
+      padding: 0;
+      li {
+        margin-left : 1rem;
+        a {
+          color : white;
+          text-decoration : none;
+          &:hover {
+            color : lightgrey;
+          }
+        }
+      }
+    } 
+  }

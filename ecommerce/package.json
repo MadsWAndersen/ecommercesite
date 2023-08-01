@@ -11,6 +11,14 @@
   "devDependencies": {
     "@nuxt/devtools": "latest",
     "@types/node": "^18.17.0",
-    "nuxt": "^3.6.5"
+    "autoprefixer": "^10.4.14",
+    "nuxt": "^3.6.5",
+    "postcss": "^8.4.27",
+    "tailwindcss": "^3.3.3"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "sass": "^1.64.1",
+    "tailwind": "^4.0.0"
   }
 }

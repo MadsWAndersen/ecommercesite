@@ -1,8 +1,9 @@
 <template>
     <div>
-        <nav>nav</nav>
-        <NuxtPage />
-        <footer>footer</footer>
+        <NuxtLayout>
+            <NuxtPage></NuxtPage>
+
+        </NuxtLayout>
     </div>
 </template>
   
