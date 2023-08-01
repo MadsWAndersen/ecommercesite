@@ -7,12 +7,31 @@ export default defineNuxtConfig({
     enabled: true,
   },
 
+  modules: [
+    '@vueuse/nuxt',
+  ],
+
+  postcss: {
+    plugins: {
+      tailwindcss: {},
+      autoprefixer: {},
+    },
+  },
+
+  css: [
+    '~/assets/css/main.css',
+    '@/assets/scss/global.scss',
+  ],
+
   runtimeConfig: {
     apiKey: '',
     apiBaseUrl: '',
+    public: {
+      imgBaseUrl: ''
+    }
   },
 
-  css: ['@/assets/scss/global.scss'],
+
 
   vite: {
     css: {

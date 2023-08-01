@@ -17,6 +17,7 @@
     "tailwindcss": "^3.3.3"
   },
   "dependencies": {
+    "@vueuse/nuxt": "^10.3.0",
     "dotenv": "^16.3.1",
     "sass": "^1.64.1",
     "tailwind": "^4.0.0"
